@@ -1,0 +1,18 @@
+[project]
+name = "expense-tracker"
+version = "1.0.0"
+description = "A beginner-friendly CLI expense tracker with Quickshell status bar support."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "Expense Tracker" }]
+
+[project.scripts]
+expense = "expense_tracker.cli:console_main"
+
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+include = ["expense_tracker"]
