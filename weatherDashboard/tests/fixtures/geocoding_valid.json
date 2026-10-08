@@ -1,0 +1,21 @@
+{
+  "results": [
+    {
+      "id": 1698829,
+      "name": "Naga",
+      "latitude": 13.61917,
+      "longitude": 123.18139,
+      "elevation": 12.0,
+      "feature_code": "PPLA2",
+      "country_code": "PH",
+      "admin1_id": 7521308,
+      "timezone": "Asia/Manila",
+      "population": 196000,
+      "country_id": 1694008,
+      "country": "Philippines",
+      "admin1": "Bicol Region",
+      "extra_unrecognized_field": "should_be_ignored"
+    }
+  ],
+  "generationtime_ms": 0.152
+}

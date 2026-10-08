@@ -1,0 +1,48 @@
+{
+  "latitude": 13.62,
+  "longitude": 123.18,
+  "utc_offset_seconds": 28800,
+  "timezone": "Asia/Manila",
+  "timezone_abbreviation": "PST",
+  "current_units": {
+    "temperature_2m": "°C",
+    "apparent_temperature": "°C",
+    "relative_humidity_2m": "%",
+    "wind_speed_10m": "km/h"
+  },
+  "current": {
+    "time": "2026-10-08T09:00",
+    "temperature_2m": null,
+    "relative_humidity_2m": null,
+    "apparent_temperature": null,
+    "weather_code": null,
+    "wind_speed_10m": null
+  },
+  "daily_units": {
+    "temperature_2m_max": "°C",
+    "temperature_2m_min": "°C",
+    "precipitation_probability_max": "%"
+  },
+  "daily": {
+    "time": [
+      "2026-10-08",
+      "2026-10-09"
+    ],
+    "weather_code": [
+      null,
+      9999
+    ],
+    "temperature_2m_max": [
+      null,
+      30.5
+    ],
+    "temperature_2m_min": [
+      null,
+      null
+    ],
+    "precipitation_probability_max": [
+      null,
+      85
+    ]
+  }
+}

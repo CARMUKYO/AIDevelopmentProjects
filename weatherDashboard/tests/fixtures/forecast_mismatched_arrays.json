@@ -1,0 +1,38 @@
+{
+  "latitude": 13.62,
+  "longitude": 123.18,
+  "timezone": "Asia/Manila",
+  "current": {
+    "time": "2026-10-08T09:00",
+    "temperature_2m": 29.4,
+    "relative_humidity_2m": 76,
+    "apparent_temperature": 34.6,
+    "weather_code": 51,
+    "wind_speed_10m": 14.2
+  },
+  "daily": {
+    "time": [
+      "2026-10-08",
+      "2026-10-09",
+      "2026-10-10"
+    ],
+    "weather_code": [
+      95,
+      80
+    ],
+    "temperature_2m_max": [
+      29.5,
+      30.0
+    ],
+    "temperature_2m_min": [
+      24.9,
+      24.2,
+      23.4
+    ],
+    "precipitation_probability_max": [
+      100,
+      90,
+      100
+    ]
+  }
+}

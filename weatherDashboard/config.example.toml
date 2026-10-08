@@ -1,0 +1,26 @@
+# Weather Dashboard Example Configuration
+# Precedence: built-in defaults < config.toml < WEATHER_* env vars < CLI flags
+
+# Open-Meteo API base URLs
+geocoding_base_url = "https://geocoding-api.open-meteo.com/v1"
+forecast_base_url = "https://api.open-meteo.com/v1"
+
+# Network & HTTP timeouts (in seconds)
+connect_timeout = 5.0
+read_timeout = 10.0
+
+# Retry configuration
+max_retries = 3
+backoff_base = 0.5
+
+# Measurement units: "metric" or "imperial"
+units = "metric"
+
+# Forecast range: 1 to 16 days
+forecast_days = 7
+
+# Default city when none is provided via CLI (e.g. "Naga", "Tokyo")
+# default_city = "Naga"
+
+# HTTP User-Agent header
+user_agent = "weather-dashboard/0.1.0"
