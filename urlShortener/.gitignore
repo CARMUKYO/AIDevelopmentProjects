@@ -1,0 +1,20 @@
+# Binaries
+bin/
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Local databases
+*.db
+*.db-journal
+*.db-wal
+*.db-shm
+
+# Environment files
+.env
+
+# OS / Editor
+.DS_Store
+Thumbs.db
