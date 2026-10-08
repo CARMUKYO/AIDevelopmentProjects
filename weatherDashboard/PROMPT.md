@@ -1,9 +1,5 @@
 # Build Prompt — Weather Dashboard
 
-Copy everything below the line into your coding agent.
-
----
-
 Build a **terminal Weather Dashboard** in this repository that consumes the public
 **Open-Meteo** API (no API key). Read `AGENTS.md` first and follow it strictly — it
 defines the stack, architecture, error policy, configuration rules, and testing rules.
